@@ -1,0 +1,18 @@
+[
+  {
+    "title": "Book Title 1",
+    "author": "Author 1",
+    "ISBN": 1,
+    "genre": "Fiction",
+    "publicationdate": "2024-05-27",
+    "numberOfCopies": 10
+  },
+  {
+    "title": "Book Title 2",
+    "author": "Author 2",
+    "ISBN": 2,
+    "genre": "Non-fiction",
+    "publicationdate": "2024-05-27",
+    "numberOfCopies": 5
+  }
+]

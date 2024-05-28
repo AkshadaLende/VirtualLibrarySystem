@@ -1,0 +1,18 @@
+<books>
+    <book>
+        <title>Book Title 1</title>
+        <author>Author 1</author>
+        <ISBN>1234567890</ISBN>
+        <genre>Fiction</genre>
+        <publicationdate>2024-05-27</publicationdate>
+        <numberOfCopies>10</numberOfCopies>
+    </book>
+    <book>
+        <title>Book Title 2</title>
+        <author>Author 2</author>
+        <ISBN>2345678901</ISBN>
+        <genre>Non-fiction</genre>
+        <publicationdate>2024-05-27</publicationdate>
+        <numberOfCopies>5</numberOfCopies>
+    </book>
+</books>
