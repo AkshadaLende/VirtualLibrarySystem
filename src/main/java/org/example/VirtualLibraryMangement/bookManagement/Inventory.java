@@ -49,10 +49,10 @@ public class Inventory implements BookSearch {
 
 
     @Override
-    public List<Book> searchBooks(String title, String author, int isbn) {
-        List<Book> collect = listOfBooks.values().stream().filter(book -> ( title.isEmpty() || book.getTitle().equalsIgnoreCase(title)) &&
-                ( author.isEmpty() || book.getAuthor().equalsIgnoreCase(author)) &&
-                (isbn == 0 || book.getISBN() == isbn)).collect(Collectors.toList());
+    public List<Book> searchBooks(String criteria) {
+        List<Book> collect = listOfBooks.values().stream().filter(book -> ( book.getTitle().equalsIgnoreCase(criteria)) &&
+                (  book.getAuthor().equalsIgnoreCase(criteria)) &&
+                ( book.getISBN() == Integer.parseInt(criteria))).collect(Collectors.toList());
         System.out.println(collect);
         return collect;
 
